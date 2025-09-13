@@ -2,6 +2,7 @@
 // @name         CineBusca Pro
 // @namespace    https://github.com/estudiobrisacriativa/CineBusca-Pro
 // @version      1.0.0
+// @license      MIT
 // @description  O seu assistente de mídia definitivo. Busque informações detalhadas, trailers e torrents para qualquer filme ou série com um simples atalho (Ctrl+1). Explore lançamentos, veja os títulos mais populares e organize sua lista de favoritos com facilidade.
 // @author       Estudio Brisa Criativa
 // @match        *://*/*
@@ -949,4 +950,5 @@
     // --- INICIALIZAÇÃO ---
     loadFavorites();
 })();
+
 

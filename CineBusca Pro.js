@@ -6,6 +6,9 @@
 // @description  O seu assistente de mídia definitivo. Busque informações detalhadas, trailers e torrents para qualquer filme ou série com um simples atalho (Ctrl+1). Explore lançamentos, veja os títulos mais populares e organize sua lista de favoritos com facilidade.
 // @author       Estudio Brisa Criativa
 // @match        *://*/*
+// @match       https://www.netflix.com/*
+// @match       https://www.primevideo.com/*
+// @match       https://www.disneyplus.com/*
 // @icon        https://raw.githubusercontent.com/estudiobrisacriativa/CineBusca-Pro/refs/heads/main/assets/icon.png
 // @downloadURL https://raw.githubusercontent.com/estudiobrisacriativa/CineBusca-Pro/refs/heads/main/CineBusca%20Pro.js
 // @updateURL   https://raw.githubusercontent.com/estudiobrisacriativa/CineBusca-Pro/refs/heads/main/CineBusca%20Pro.js
@@ -950,5 +953,6 @@
     // --- INICIALIZAÇÃO ---
     loadFavorites();
 })();
+
 
 
